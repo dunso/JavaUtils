@@ -5,7 +5,7 @@ import java.util.Optional;
 import java.util.regex.Pattern;
 
 /**
- * String高级工具箱
+ * String Advanced Tool
  *
  * @author dunso
  */
@@ -19,7 +19,7 @@ public class StringAdvanceUtil {
 	 * @param split1 根据它将str切割为一个个的kv字符串
 	 * @param split2 根据它将kv字符串切割为kv键值对
 	 * @param repRex 根据它对kv键值对做替换处理，如去除字符串里面的空格、特殊字符（"，\n, tab"）等等
-	 * @return Optional\<Map\<String, String\>\>
+	 * @return <code>Optional<Map<String, String>></code>
 	 */
 	public static Optional<Map<String, String>> splitStr2Map(String str, String split1, String split2, String repRex) {
 
