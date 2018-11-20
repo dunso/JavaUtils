@@ -7,3 +7,7 @@ javacOptions in Compile ++= Seq("-encoding", "UTF-8", "-source", "1.8")
 javacOptions in(Compile, compile) ++= Seq("-target", "1.8")
 
 lazy val root = (project in file("."))
+
+libraryDependencies ++= Seq(
+  "com.google.code.gson" % "gson" % "2.8.5",
+)
