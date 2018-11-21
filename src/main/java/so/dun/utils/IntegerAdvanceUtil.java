@@ -1,3 +1,5 @@
+package so.dun.utils;
+
 /**
  * Integer Advanced Tool
  *
